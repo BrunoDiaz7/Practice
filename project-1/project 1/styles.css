@@ -1,0 +1,69 @@
+body {
+    width: 1443;
+    height: 2857px;
+    background: var(--color-secondary-white, #fff);
+}
+
+header {
+    display: flex;
+    flex-shrink: 0;
+    width: 90em;
+    height: 56.25em;
+    border: 1px solid var(--color-primary-light-brown, #EDC);
+    background: var(--color-primary-light-brown, #EDC);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+.collection__title {
+    color: var(--color-primary-dark-brown, #34251F);
+    text-align: center;
+    font-family: Frank Ruhl Libre;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.collection {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.collection__description {
+    display: flex;
+    height: 36px;
+    margin: 25px;
+    padding: auto;
+    align-items: center;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+.description__text {
+    color: var(--color-primary-dark-brown, #34251F);
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    text-transform: capitalize;
+}
+
+.collection__images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 25;
+}
+.images__product {
+    width: 363px;
+    height: 417px;
+    flex-shrink: 0;
+    margin: 25px;
+}
