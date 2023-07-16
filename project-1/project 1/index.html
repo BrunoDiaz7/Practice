@@ -3,30 +3,61 @@
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@600&family=Lato:wght@700&family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@600&family=Lato:wght@700&family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shoe marketplace</title>
+    <title>Join us Page</title>
+    <link href="./assets/icons/favicon.ico" rel="icon" type="image/x-icon" />
 </head>
 <body>
-    <header>
-    </header>
-    <main>
-        <section class="collection">
-            <h1 class="collection__title">New Collection</h1>
-            <div class="collection__description">
-            <p class="description__text">Sepatu dengan kualitas terbaik di indonesia kini hadir untuk anda.</p>
+        <div class="image-container">
+        </div>
+        <section class="Form-container">
+            <h1 class="form-title">Join us today 👋</h1>
+            <p class="form-text">
+                Clarity gives you the blocks and components you need to create a truly professional website.
+            </p>
+            <div class="button-container">
+                <a class="sign-up-button" href="#">
+                    <img style="width:23px; height: 23px;" src="./assets/icons/google-2.svg" alt="google-icon">
+                    <p class="button-text">Sign up with Google
+                    </p>
+                </a>
             </div>
-            <div class="collection__images">
-                <img src="./public/images/shoe1.png" alt="Shoe" class="images__product">
-                <img src="./public/images/shoe2.png" alt="Shoe" class="images__product">
-                <img src="./public/images/shoe3.png" alt="Shoe" class="images__product">
-            </div>
+            <form class="form" action="#" method="post">
+                <div class="label-container">
+                    <label  for="name">First & Last Name</label>
+                    <div class="input-container">
+                        <input class="input-content" type="text" id="fullName" name="fullName" placeholder="i.e. Davon Lean" required>
+                    </div>
+                </div>
+                <div class="label-container">
+                    <label for="email">Email Address</label>
+                    <div class="input-container">
+                        <input class="input-content" type="email" id="emailAddress" name="emailAddress" placeholder="i.e. davon@mail.com" required>
+                    </div>
+                </div>
+                <div class="label-container">
+                    <label for="password">Password</label>
+                    <div class="input-container">
+                        <input class="input-content" type="password" id="password" name="password" required>
+    
+                    </div>
+                </div>
+                <div class='check-box-container'>
+                    <input class="check-box" type="checkbox">
+                    <label  for="text">Remember me</label>
+                </div>
+                <div class="button-container">
+                    <a class="submit-button" href="#">
+                        <p class="button-text">
+                            Create Account
+                        </p>
+                    </a>
+                </div>
+                <p class="form-text" >Don't have an account? <a style="text-decoration: none; color: #2563EB;" href="#">Create free account</a></p>
+            </form>
         </section>
-    </main>
 </body>
 </html>
