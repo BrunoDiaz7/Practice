@@ -1,0 +1,389 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ddd;
+}
+header {
+    width: 1440px;
+    height: 700px;
+    flex-shrink: 0;
+    background-color: #0c141f;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 20px;
+}
+
+.icon-container {
+    margin:20px;
+    gap: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.brand {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nav-text {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.nav-text:hover {
+    color: #13C690;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.company-description {
+    width: 975px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.user-information {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.user-comment {
+    display: flex;
+    width: 353px;
+    height: 91px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.90);
+}
+
+.user-image {
+    width: 67px;
+    height: 67px;
+    flex-shrink: 0;
+    border-radius: 67px;
+}
+
+.user1 {
+    background-image: url(./assets/pictures/man.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.user2{
+    background-image: url(./assets/pictures/woman.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.user-name {
+    color: #0C141F;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+
+.user-description {
+    width: 212px;
+    color: rgba(12, 20, 31, 0.60);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+}
+.user-data {
+    display: flex;
+    max-width: 90%;
+    max-height: 90%;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px
+
+}
+.comment2 {
+    position: relative;
+    left: 60px;
+    z-index: 1;
+}
+
+.data-container {
+    display: flex;
+    position: relative;
+    bottom: 140px;
+    left: 20px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 90px;
+    margin: 20px;
+    z-index: 0;
+}
+
+.contact-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 254px;
+    height: 85px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #13478F;
+}
+
+.button-text {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.intro {
+    width: 630px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.brands {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 75px;
+}
+
+.brands__info {
+    color: rgba(12, 20, 31, 0.60);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+span {
+    color: #0C141F;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.brands-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 90px;
+}
+.brads-logo {
+    width: 100px;
+    height: 21px;
+    flex-shrink: 0;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 75px;
+}
+
+.service-link {
+    text-decoration: none;
+    color: #197AFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.service-heading {
+    width: 693px;
+    color: #0C141F;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.service-preview {
+    display: grid;
+    grid-template-columns: repeat(4, 350px);
+    grid-template-rows: repeat(2, 350px);
+    gap: 20px;    
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #F3F5F7;
+    border-radius: 8px;
+    transition: width 2s height 2s transform 2s;
+    transition-timing-function: linear;
+}
+
+.service-item:hover {
+    transform: scale(1.2);
+}
+
+.service-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60.596px;
+    height: 60.596px;
+    flex-shrink: 0;
+    border-radius: 100%;
+}
+.dev {
+    background-color: rgb(11, 102, 72);
+}
+.UI {
+    background-color: #33135a;
+}
+.graph {
+    background-color: #81452d;
+}
+.mot {
+    background-color: #e994ae;
+}
+.pho {
+    background-color: #76aadb;
+}
+.vid {
+    background-color: #5d8174;
+}
+.mark {
+    background-color: #645d31;
+}
+
+.service-name {
+    color: #0C141F;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.75px;
+}
+
+.service-description {
+    width: 236.325px;
+    height: 56.556px;
+    flex-shrink: 0;
+    color: rgba(12, 20, 31, 0.50);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+}
+
+.contact {
+    background: #197AFF;
+    box-shadow: 0px 20px 60px 0px rgba(25, 122, 255, 0.25);
+}
+
+.service-name-contact {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+}
+.service-description-contact {
+    width: 236.325px;
+    height: 56.556px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    letter-spacing: -0.5px;
+}
+
+.contact-item1 {
+    position: relative;
+    right: 100px;
+    width: 31.456px;
+    height: 33.217px;
+    transform: rotate(24.157deg);
+    flex-shrink: 0;
+    fill: #FFF;
+}
+
+.contact-item2 {
+    position: relative;
+    left: 100px;
+    width: 62px;
+    height: 72.941px;
+    transform: rotate(-27.371deg);
+    flex-shrink: 0;
+}
+
