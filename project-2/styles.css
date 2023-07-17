@@ -10,6 +10,9 @@ header {
     flex-shrink: 0;
     background-color: #0c141f;
 }
+footer {
+    position: static;
+}
 
 .company {
     display: flex;
