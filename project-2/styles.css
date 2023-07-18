@@ -12,6 +12,8 @@ header {
 }
 footer {
     position: static;
+    width: 1440px;
+    background-color: #F3F5F7;
 }
 
 .company {
@@ -35,6 +37,7 @@ footer {
 }
 
 .icon-container {
+    display: flex;
     margin:20px;
     gap: 20px;
 }
@@ -282,7 +285,7 @@ span {
     align-items: center;
     background: #F3F5F7;
     border-radius: 8px;
-    transition: width 2s height 2s transform 2s;
+    transition: width 2s height 2s;
     transition-timing-function: linear;
 }
 
@@ -319,6 +322,19 @@ span {
 }
 .mark {
     background-color: #645d31;
+}
+.cof {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 50px;
+    bottom: -5px;
+    width: 83px;
+    height: 83px;
+    flex-shrink: 0;
+    border-radius: 100%;
+    background-color: #13C690;
 }
 
 .service-name {
@@ -390,3 +406,81 @@ span {
     flex-shrink: 0;
 }
 
+.know-us {
+    display: flex;
+    justify-content: center;
+    margin-block: 20px;
+}
+
+.button-green {
+    align-self: flex-start;
+    background-color: #13C690;
+    border: 1px solid #13C690;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #ddd;
+}
+
+.know-us__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.know-us__description {
+    width: 630px;
+    color: rgba(12, 20, 31, 0.50);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.footer-description {
+    width: 341px;
+}
+
+.suscription {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    gap: 15px;
+}
+
+.form__input {
+    color: rgba(12, 20, 31, 0.50);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    width: 380px;
+    height: 60px;
+    flex-shrink: 0;
+    background: #D5D7D8;
+    border-radius: 5px;
+    border: 1px solid #D5D7D8;
+}
+
+.submit-button {
+    border: 1px solid #13478F;
+    color: #ddd;
+    width: 160px;
+    height: 60px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.brand-black, .nav-text-black {
+    color: #0C141F;
+}
