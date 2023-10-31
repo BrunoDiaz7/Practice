@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@600&family=Lato:wght@700&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="contact.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <p>HOLAAAAAA</p>
+    <div class="form">
+        <h1 class="form__title">Contact us</h1>
+        <p class="form__message">Contact us for more information!</p>
+        <form class="form__items" action="#" method="post">
+            <label class="form__label" for="name">First name...</label>
+            <input class="form__input" type="text" placeholder="Your name..." required>
+            <label class="form__label" for="lastName">Last name...</label>
+            <input class="form__input" type="text" name="lastName" id="lastName" placeholder="Your Last name" required>
+            <label class="form__label" for="phone">Your phone number</label>
+            <input class="form__input" type="tel" placeholder="E.g. 333-333-333">
+            <label class="form__label" for="mail">Your email address</label>
+            <input class="form__input" type="email" placeholder="E.g. example@mail.com">
+            <label class="form__label" for="country">Your country</label>
+            <select class="form__input" name="country" id="country">
+                <optgroup>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Ukraine">Ukraine</option>
+                    <option value="Belarus">Belarus</option>
+                    <option value="Poland">Poland</option>
+                    <option value="Other">Other</option>
+                </optgroup>
+            </select>
+            <button class="form__button" type="submit">submit</button>
+            </form>
+    </div>
 </body>
 </html>
